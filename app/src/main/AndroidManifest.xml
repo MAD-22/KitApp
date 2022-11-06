@@ -14,12 +14,12 @@
         android:theme="@style/Theme.Kitapp"
         tools:targetApi="31">
 
-        <activity
-            android:name=".crud.inquire.selectBook"
+
             android:exported="false" />
 
 
         <activity
+<<<<<<< Inquiry
             android:name=".crud.inquire.CreateInquire"
             android:exported="false" />
         <activity
@@ -27,6 +27,22 @@
             android:exported="false" />
         <activity
             android:name=".crud.inquire.DeleteInquire"
+=======
+            android:name=".crud.order.OrderSelectItems"
+=======
+        <activity
+            android:name=".crud.article.CreateArticle"
+            android:exported="false" />
+        <activity
+            android:name=".crud.article.UpdateArticle"
+            android:exported="false" />
+        <activity
+            android:name=".crud.article.DeleteArticle"
+            android:exported="false" />
+        <activity
+            android:name=".crud.article.ViewArticle"
+>>>>>>> main
+>>>>>>> main
             android:exported="false" />
 
 
