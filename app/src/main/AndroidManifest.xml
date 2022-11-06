@@ -14,23 +14,20 @@
         android:theme="@style/Theme.Kitapp"
         tools:targetApi="31">
 
-<<<<<<< Order
 
-        <activity
-            android:name=".crud.order.CreateOrder"
-            android:exported="false" />
-        <activity
-            android:name=".crud.order.UpdateOrder"
-            android:exported="false" />
-        <activity
-            android:name=".crud.order.DeleteOrder"
-            android:exported="false" />
-        <activity
-            android:name=".crud.order.ViewOrder"
             android:exported="false" />
 
 
         <activity
+<<<<<<< Inquiry
+            android:name=".crud.inquire.CreateInquire"
+            android:exported="false" />
+        <activity
+            android:name=".crud.inquire.UpdateInquire"
+            android:exported="false" />
+        <activity
+            android:name=".crud.inquire.DeleteInquire"
+=======
             android:name=".crud.order.OrderSelectItems"
 =======
         <activity
@@ -44,6 +41,7 @@
             android:exported="false" />
         <activity
             android:name=".crud.article.ViewArticle"
+>>>>>>> main
 >>>>>>> main
             android:exported="false" />
 
