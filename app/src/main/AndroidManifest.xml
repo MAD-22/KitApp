@@ -15,6 +15,7 @@
         tools:targetApi="31">
 
 
+<<<<<<< Book
         <activity
             android:name=".crud.book.CreateBook"
             android:exported="false" />
@@ -26,6 +27,36 @@
             android:exported="false" />
         <activity
             android:name=".crud.book.ViewBook"
+=======
+            android:exported="false" />
+
+
+        <activity
+<<<<<<< Inquiry
+            android:name=".crud.inquire.CreateInquire"
+            android:exported="false" />
+        <activity
+            android:name=".crud.inquire.UpdateInquire"
+            android:exported="false" />
+        <activity
+            android:name=".crud.inquire.DeleteInquire"
+=======
+            android:name=".crud.order.OrderSelectItems"
+=======
+        <activity
+            android:name=".crud.article.CreateArticle"
+            android:exported="false" />
+        <activity
+            android:name=".crud.article.UpdateArticle"
+            android:exported="false" />
+        <activity
+            android:name=".crud.article.DeleteArticle"
+            android:exported="false" />
+        <activity
+            android:name=".crud.article.ViewArticle"
+>>>>>>> main
+>>>>>>> main
+>>>>>>> main
             android:exported="false" />
 
 

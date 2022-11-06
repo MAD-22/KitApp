@@ -5,7 +5,19 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
 
+<<<<<<< Book
 import com.android.kitapp.crud.book.CreateBook;
+=======
+<<<<<<< Inquiry
+import com.android.kitapp.crud.inquire.CreateInquire;
+=======
+<<<<<<< Order
+import com.android.kitapp.crud.order.OrderSelectItems;
+=======
+import com.android.kitapp.crud.article.CreateArticle;
+>>>>>>> main
+>>>>>>> main
+>>>>>>> main
 import com.android.kitapp.databinding.ActivityMainBinding;
 import com.google.android.material.navigation.NavigationView;
 
