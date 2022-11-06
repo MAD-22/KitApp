@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="30dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:text="Add a inquire"
+        android:layout_marginBottom="30dp"></TextView>
+
+    <com.omarshehe.forminputkotlin.FormInputText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textAutoCorrect"
+        app:customer_hint="Enter book name or article name"
+        app:customer_inputType="text"
+        android:visibility="visible"
+        app:customer_isMandatory="true"
+        app:customer_label="Enter name"
+        app:customer_value="" />
+    <com.omarshehe.forminputkotlin.FormInputText
+        android:id="@+id/category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textAutoCorrect"
+        app:customer_hint="Enter category"
+        app:customer_inputType="text"
+        android:visibility="visible"
+        app:customer_isMandatory="true"
+        app:customer_label="Enter category"
+        app:customer_value="" />
+
+    <com.omarshehe.forminputkotlin.FormInputText
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textAutoCorrect"
+        app:customer_hint="Enter your name"
+        app:customer_inputType="text"
+        android:visibility="visible"
+        app:customer_isMandatory="true"
+        app:customer_label="Enter your name"
+        app:customer_value="" />
+
+
+
+
+    <com.omarshehe.forminputkotlin.FormInputText
+        android:id="@+id/inquire_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textAutoCorrect"
+        app:customer_hint="Enter date"
+        app:customer_inputType="text"
+        android:visibility="visible"
+        app:customer_isMandatory="true"
+        app:customer_label="Enter date"
+        app:customer_value="" />
+
+    <com.omarshehe.forminputkotlin.FormInputMultiline
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:customer_height="80"
+        app:customer_hint="Enter your question"
+        app:customer_isMandatory="true"
+        app:customer_label="Question"
+        app:customer_value=""
+        app:customer_maxLength="500"/>
+
+    <Button
+        android:id="@+id/btn_create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/black"
+        android:layout_margin="20dp"
+        android:text="create" />
+
+
+</LinearLayout>
