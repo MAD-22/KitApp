@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="30dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:text="Update article details"
+        android:layout_margin="30dp"></TextView>
+
+    <com.omarshehe.forminputkotlin.FormInputText
+        android:id="@+id/article_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textAutoCorrect"
+        app:customer_hint="Enter article name"
+        app:customer_inputType="text"
+        android:visibility="visible"
+        app:customer_isMandatory="true"
+        app:customer_label="Enter article name"
+        app:customer_value="" />
+
+    <com.omarshehe.forminputkotlin.FormInputText
+        android:id="@+id/publisher_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textAutoCorrect"
+        app:customer_hint="Enter publisher name"
+        app:customer_inputType="text"
+        android:visibility="visible"
+        app:customer_isMandatory="true"
+        app:customer_label="Enter publisher number"
+        app:customer_value="" />
+
+
+    <com.omarshehe.forminputkotlin.FormInputText
+        android:id="@+id/article_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textAutoCorrect"
+        app:customer_hint="Enter article type"
+        app:customer_inputType="text"
+        android:visibility="visible"
+        app:customer_isMandatory="true"
+        app:customer_label="Enter article type"
+        app:customer_value="" />
+
+
+
+    <com.omarshehe.forminputkotlin.FormInputText
+        android:id="@+id/publish_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textAutoCorrect"
+        app:customer_hint="Enter publish date"
+        app:customer_inputType="text"
+        android:visibility="visible"
+        app:customer_isMandatory="true"
+        app:customer_label="Enter publish date"
+        app:customer_value="" />
+
+    <com.omarshehe.forminputkotlin.FormInputMultiline
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:customer_height="100"
+        app:customer_hint="Description"
+        app:customer_isMandatory="true"
+        app:customer_label="About"
+        app:customer_value=""
+        app:customer_maxLength="500"/>
+
+
+
+
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/black"
+        android:layout_margin="40dp"
+        android:text="Update" />
+
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="40dp"
+    android:orientation="vertical">
+
+
+    <com.omarshehe.forminputkotlin.FormInputText
+        android:id="@+id/cardno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textAutoCorrect"
+        app:customer_hint="Enter card number"
+        app:customer_inputType="text"
+        android:visibility="visible"
+        app:customer_isMandatory="true"
+        app:customer_label="Enter card number"
+        app:customer_value="" />
+
+
+    <com.omarshehe.forminputkotlin.FormInputText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textAutoCorrect"
+        app:customer_hint="Enter the name"
+        app:customer_inputType="text"
+        android:visibility="visible"
+        app:customer_isMandatory="true"
+        app:customer_label="Enter the name"
+        app:customer_value="" />
+
+
+
+    <com.omarshehe.forminputkotlin.FormInputText
+        android:id="@+id/expiredate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textAutoCorrect"
+        app:customer_hint="enter expire date"
+        app:customer_inputType="text"
+        android:visibility="visible"
+        app:customer_isMandatory="true"
+        app:customer_label="enter expire date"
+        app:customer_value="" />
+
+
+    <com.omarshehe.forminputkotlin.FormInputText
+        android:id="@+id/ccv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textAutoCorrect"
+        app:customer_hint="enter ccv"
+        app:customer_inputType="text"
+        android:visibility="visible"
+        app:customer_isMandatory="true"
+        app:customer_label="enter ccv"
+        app:customer_value="" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:text="*I agree the terms and condition"
+        android:layout_marginTop="30dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:text="I acknowledge that the card details will be used for transctions with E-Meds"
+        android:layout_marginTop="20dp"></TextView>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="30dp"
+        android:text="Proceed payment" />
+
+</LinearLayout>
