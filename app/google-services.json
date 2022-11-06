@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "305419680913",
+    "project_id": "kitapp-b40c1",
+    "storage_bucket": "kitapp-b40c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305419680913:android:73e0118d1edbc0f2a91330",
+        "android_client_info": {
+          "package_name": "com.android.kitapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "305419680913-1l9d0f6aqh6dijm8129eop2idi8o373t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTJP0eOsR1Hih2LapN77D6_8swIFJr-Is"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "305419680913-1l9d0f6aqh6dijm8129eop2idi8o373t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
