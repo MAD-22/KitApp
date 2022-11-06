@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_book">
+
+    <fragment
+        android:id="@+id/nav_book"
+        android:name="com.android.kitapp.ui.book.BookFragment"
+        android:label="@string/menu_book"
+        tools:layout="@layout/fragment_book" />
+    <fragment
+        android:id="@+id/nav_article"
+        android:name="com.android.kitapp.ui.article.ArticleFragment"
+        android:label="@string/menu_article"
+        tools:layout="@layout/fragment_article" />
+
+    <fragment
+        android:id="@+id/nav_inquire"
+        android:name="com.android.kitapp.ui.inquire.InquireFragment"
+        android:label="@string/menu_inquire"
+        tools:layout="@layout/fragment_inquire" />
+
+    <fragment
+        android:id="@+id/nav_order"
+        android:name="com.android.kitapp.ui.order.OrderFragment"
+        android:label="@string/menu_order"
+        tools:layout="@layout/fragment_order" />
+</navigation>

@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="40dp"
+    android:orientation="vertical">
+
+    <com.omarshehe.forminputkotlin.FormInputText
+        android:id="@+id/book_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textAutoCorrect"
+        app:customer_hint="Enter book name"
+        app:customer_inputType="text"
+        android:visibility="visible"
+        app:customer_isMandatory="true"
+        app:customer_label="Enter book name"
+        app:customer_value="" />
+
+
+    <com.omarshehe.forminputkotlin.FormInputText
+        android:id="@+id/count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textAutoCorrect"
+        app:customer_hint="Enter count"
+        app:customer_inputType="text"
+        android:visibility="visible"
+        app:customer_isMandatory="true"
+        app:customer_label="Enter count"
+        app:customer_value="" />
+
+
+
+    <com.omarshehe.forminputkotlin.FormInputText
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textAutoCorrect"
+        app:customer_hint="enter amount"
+        app:customer_inputType="text"
+        android:visibility="visible"
+        app:customer_isMandatory="true"
+        app:customer_label="enter amount"
+        app:customer_value="" />
+
+
+    <com.omarshehe.forminputkotlin.FormInputText
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textAutoCorrect"
+        app:customer_hint="enter date"
+        app:customer_inputType="text"
+        android:visibility="visible"
+        app:customer_isMandatory="true"
+        app:customer_label="enter date"
+        app:customer_value="" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_marginVertical="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payment" />
+
+</LinearLayout>
